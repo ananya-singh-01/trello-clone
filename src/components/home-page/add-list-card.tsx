@@ -61,7 +61,7 @@ const AddListOrCard = ({
     .filter((board) => board.id === currentActiveBoard)
     .map((board) => board.lists);
 
-  console.log('currentLists', currentLists[0]);
+  // console.log('currentLists', currentLists[0]);
 
   const handleNewItemCreate = () => {
     if (type === LIST) {

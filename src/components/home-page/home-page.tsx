@@ -78,6 +78,7 @@ const HomePage: React.FC = () => {
 
     const sourceList = boardData[sourceListIndex];
     const destinationList = boardData[destinationListIndex];
+    console.log(sourceListIndex, destinationListIndex, sourceList, destinationList)
 
     // Handle the logic for reordering items
     // Moving cards between lists
